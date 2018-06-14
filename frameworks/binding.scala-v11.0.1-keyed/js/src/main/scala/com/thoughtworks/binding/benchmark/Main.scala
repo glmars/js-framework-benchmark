@@ -12,7 +12,7 @@ object Main extends scalajs.js.JSApp {
     <div class="jumbotron">
       <div class="row">
         <div class="col-md-6">
-          <h1>Binding.scala v10.0.0</h1>
+          <h1>Binding.scala v11.0.1</h1>
         </div>
         <div class="col-md-6">
           <div class="row">

@@ -2,4 +2,4 @@ addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "lates
 
 addSbtPlugin("com.vmunier" % "sbt-web-scalajs" % "1.0.1")
 
-addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.13")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.17")
