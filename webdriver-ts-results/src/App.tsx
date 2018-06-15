@@ -96,7 +96,7 @@ class App extends React.Component<{}, State> {
                   selectedFrameworks: _allFrameworks,
                   separateKeyedAndNonKeyed: true,
                   resultTables: [],
-                  sortKey: SORT_BY_GEOMMEAN,
+                  sortKey: SORT_BY_NAME,
                   compareWith: undefined,
                   useMedian: false,
                 };
@@ -164,7 +164,8 @@ class App extends React.Component<{}, State> {
     return (
       <div>   
         {disclaimer}
-        <p>The benchmark was run on a MacBook Pro 15 (2,5 GHz i7, 16 GB RAM, OSX 10.13.1, Chrome 62.0.3202.94 (64-bit))</p>        
+        <p>The benchmark was run on a Intel Core i5-3470S 2,9 GHz, 16 GB RAM, Windows 7 (64-bit), Chrome 67.0.3396.87 (32-bit)</p>        
+        <p>Command line: <code>npm run selenium -- --count 20 --framework binding.scala react-v16.1.0-redux-v3.7.2-keyed vanillajs-keyed</code></p>        
         <SelectBar  benchmarksCPU={this.state.benchmarksCPU} 
                     benchmarksStartup={this.state.benchmarksStartup}
                     benchmarksMEM={this.state.benchmarksMEM} 
